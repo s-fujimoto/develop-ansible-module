@@ -1,0 +1,17 @@
+[centos6]
+10.255.0.120
+
+[centos7]
+10.255.0.121
+
+[ubuntu12]
+10.255.0.122
+
+[ubuntu14]
+10.255.0.123
+
+[amazon_linux]
+52.193.251.70
+
+[osx]
+localhost ansible_connection=local

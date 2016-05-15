@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "aaaaaaaaaaaaaaa Hello world aaaaaaaaaaaaa" >> /tmp/hello.txt
+echo '{"state":"fail"}'

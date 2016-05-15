@@ -1,0 +1,20 @@
+Host 10.255.0.120
+  IdentityFile ~/Techs/vagrant/ansible/.vagrant/machines/centos6/virtualbox/private_key
+
+Host 10.255.0.121
+  IdentityFile ~/Techs/vagrant/ansible/.vagrant/machines/centos7/virtualbox/private_key
+
+Host 10.255.0.122
+  IdentityFile ~/Techs/vagrant/ansible/.vagrant/machines/ubuntu12/virtualbox/private_key
+
+Host 10.255.0.123
+  IdentityFile ~/Techs/vagrant/ansible/.vagrant/machines/ubuntu14/virtualbox/private_key
+
+Host 52.193.251.70
+  User ec2-user
+  IdentityFile ~/.ssh/cm-fujimoto.pem
+
+Host *
+  User vagrant
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null

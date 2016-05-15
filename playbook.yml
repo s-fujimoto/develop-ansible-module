@@ -1,0 +1,5 @@
+- hosts: all
+  tasks:
+  - os_info:
+  - os_dist:
+  - os_ver:

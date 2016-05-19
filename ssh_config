@@ -1,18 +1,27 @@
-Host 10.255.0.120
-  IdentityFile ~/Techs/vagrant/ansible/.vagrant/machines/centos6/virtualbox/private_key
+Host centos6
+  Hostname xxx.xxx.xxx.xxx
+  IdentityFile xxxxx.pem
 
-Host 10.255.0.121
-  IdentityFile ~/Techs/vagrant/ansible/.vagrant/machines/centos7/virtualbox/private_key
+Host centos7
+  Hostname xxx.xxx.xxx.xxx
+  IdentityFile xxxxx.pem
 
-Host 10.255.0.122
-  IdentityFile ~/Techs/vagrant/ansible/.vagrant/machines/ubuntu12/virtualbox/private_key
+Host ubuntu12
+  Hostname xxx.xxx.xxx.xxx
+  IdentityFile xxxxx.pem
 
-Host 10.255.0.123
-  IdentityFile ~/Techs/vagrant/ansible/.vagrant/machines/ubuntu14/virtualbox/private_key
+Host ubuntu14
+  Hostname xxx.xxx.xxx.xxx
+  IdentityFile xxxxx.pem
 
-Host 52.193.251.70
+Host centos5
+  Hostname xxx.xxx.xxx.xxx
+  IdentityFile xxxxx.pem
+
+Host amazon
+  Hostname xxx.xxx.xxx.xxx
   User ec2-user
-  IdentityFile ~/.ssh/cm-fujimoto.pem
+  IdentityFile xxxxx.pem
 
 Host *
   User vagrant

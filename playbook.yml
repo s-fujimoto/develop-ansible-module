@@ -1,5 +1,4 @@
 - hosts: all
+  become: yes
   tasks:
-  - os_info:
-  - os_dist:
-  - os_ver:
+  - swap: filepath=/swap
